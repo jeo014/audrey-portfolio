@@ -1,0 +1,41 @@
+/*.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}*/
+
+
+/*nav > div.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+*/
+
+.name {
+	font-family: 'Covered By Your Grace', cursive;
+	text-transform: uppercase;
+	font-size: 6em;
+	color: white;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+}
+
+.logo {
+	text-align: center;
+	background-color: black;
+}
+
+.section-heading {
+	text-align: center;
+}
+
+.card {
+/*	border: 1px solid gray;
+	padding-left: 0px;
+	padding-right: 0px;*/
+/*	margin-left: 15px;
+	margin-right: 15px;*/
+}
+
+img {
+	width: 100%;
+}
