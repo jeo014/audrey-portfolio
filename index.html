@@ -12,12 +12,196 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+    
+    <!-- Other stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Droid+Sans" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
-  <nav class="navbar navbar-default navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a class="page-scroll" href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#fashion-design">Fashion Design</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#textile-design">Textile Design</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#bio">Bio</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+
+  <!-- Intro Section -->
+  <section id="logo" class="logo-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1 class="name">Audrey Ouimet</h1>
+<!--                   <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+                  <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a> -->
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Fashion Design Section -->
+  <section id="fashion-design" class="fashion-design-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h2 class="section-heading">Fashion Design</h2>
+                  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum pulvinar erat, vitae euismod turpis fringilla vitae. Etiam viverra eget.</h4>
+              </div>
+          </div>
+          <div class="row">
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="https://cdn.pixabay.com/photo/2015/09/27/14/02/fashion-960690_960_720.jpg">
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="https://cdn.pixabay.com/photo/2015/09/27/14/02/fashion-960690_960_720.jpg">
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="https://cdn.pixabay.com/photo/2015/09/27/14/02/fashion-960690_960_720.jpg">
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="https://cdn.pixabay.com/photo/2015/09/27/14/02/fashion-960690_960_720.jpg">
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Textile Design Section -->
+  <section id="textile-design" class="textile-design-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h2 class="section-heading">Textile Design</h2>
+                  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum pulvinar erat, vitae euismod turpis fringilla vitae. Etiam viverra eget.</h4>
+              </div>
+          </div>
+          <div class="row">
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="https://cdn.pixabay.com/photo/2015/09/27/14/02/fashion-960690_960_720.jpg">
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="https://cdn.pixabay.com/photo/2015/09/27/14/02/fashion-960690_960_720.jpg">
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="https://cdn.pixabay.com/photo/2015/09/27/14/02/fashion-960690_960_720.jpg">
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="https://cdn.pixabay.com/photo/2015/09/27/14/02/fashion-960690_960_720.jpg">
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Bio Section -->
+  <section id="bio" class="bio-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h2 class="section-heading">Bio</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum velit sit amet tristique volutpat. Integer quis sapien sit amet elit eleifend convallis vitae quis tellus. Cras quis convallis dolor, a rutrum ligula. Proin malesuada volutpat augue eu congue. Cras suscipit ante ut blandit porttitor. In iaculis mauris dignissim nisl dignissim ullamcorper. Donec ultricies sed urna eu lacinia. Aliquam dapibus nunc pretium tortor mattis malesuada. Curabitur nec tincidunt enim. Phasellus nibh urna, iaculis vel nibh egestas, pellentesque mattis leo. Vestibulum pellentesque diam eu lorem vulputate, at pellentesque felis aliquet.<p>
+                    <p>Nullam euismod varius elit a ullamcorper. Nunc rutrum mauris id est malesuada dictum. Nulla porttitor sodales vulputate. Fusce aliquet in justo eget vehicula. Integer tellus orci, consequat vitae nisi vel, gravida viverra elit. Donec ac nibh aliquam nulla sagittis rutrum ut non arcu. Suspendisse dui metus, cursus eget suscipit bibendum, dictum vitae felis. In ultricies blandit odio, vel elementum dolor aliquam condimentum. In eget elementum eros. Nullam urna eros, venenatis scelerisque leo ornare, pulvinar feugiat nulla. Quisque congue ornare quam.</p>
+                    <p>Aliquam ultrices urna sit amet enim auctor pellentesque. Praesent vel risus sem. Donec nec rutrum est, at commodo nibh. Nulla rhoncus porttitor ligula id porta. Donec malesuada dolor a risus volutpat pretium. Nunc ut ligula consectetur, dapibus est vitae, pretium massa. Sed vitae nulla tincidunt, posuere mi eget, vulputate nibh. Integer a nisl nisi. Aliquam nibh quam, feugiat quis rutrum eu, consequat vel sem.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h2 class="section-heading">Contact</h2>
+                  <h4>Send Audrey a Message</h4>
+                  <form class="form-horizontal">
+                    <div class="form-group col-md-6">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="text" placeholder="John Doe">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-12">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" rows="3" placeholder="Your Message Here"></textarea>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> I would like a reply
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Send</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+
+  <section id="footer" class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+              <p>Audrey Ouimet, 2016</p>
+              <a href="#page-top">Top of Page</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Scrolling Nav JavaScript -->
+  <script src="jquery.easing.min.js"></script>
+  <script src="scrolling-nav.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+<!--   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -27,25 +211,24 @@
         </button>
         <a class="navbar-brand" href="#">Home</a>
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Fashion Design <span class="sr-only">(current)</span></a></li>
           <li><a href="#">Textile Design</a></li>
           <li><a href="#">Bio</a></li>
-          <li><a href="#">Contact</a></li>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+          <li><a href="#">Contact</a></li> -->
+<!--       </div>
+    </div>
   </nav>
   <body>
-    <div class="container-fluid">
-      <div class="row logo">
+    <div class="container-fluid logo-section">
+      <div class="row">
           <h1 class="name">Audrey Ouimet</h1>
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row section fasion-design">
+    <div class="container-fluid fasion-design-section">
+      <div class="row section">
         <h2 class="section-heading">Fashion Design</h2>
       </div>
       <div class="row">
@@ -70,23 +253,29 @@
       </div>
     </div>
 
-    <div class="row textile-design">
-      <div class="col-xs-12 col-md-6">
-        <h2 class="section-heading">Textile Design</h2>
+    <div class="container-fluid textile-design-section">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h2 class="section-heading">Textile Design</h2>
+        </div>
       </div>
     </div>
 
-        <div class="row bio">
-      <div class="col-xs-12 col-md-6">
-        <h2 class="section-heading">Bio</h2>
+    <div class="container-fluid bio-section">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h2 class="section-heading">Bio</h2>
+        </div>
       </div>
     </div>
 
-    <div class="row contact">
-      <div class="col-xs-12 col-md-6">
-        <h2 class="section-heading">Contact</h2>
+    <div class="container-fluid contact-section">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h2 class="section-heading">Contact</h2>
+        </div>
       </div>
     </div>
 
   </body>
-</html>
+</html> -->
