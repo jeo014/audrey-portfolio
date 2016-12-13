@@ -37,6 +37,26 @@ img {
 	padding-top: 15px;
 }
 
+.card-highlight {
+	position: relative;
+}
+
+.new-banner {
+	height: 30px;
+	width: 33.33%;
+	transform: rotate(-30deg);
+	background-color: #19CF74;
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: -10px;
+	text-align: center;
+}
+
+.new-banner p {
+	padding-top: 5px;
+}
+
 
 .fashion-design-section {
 	background-color: #D5DCE5;
@@ -51,6 +71,10 @@ img {
 .bio-section {
 	background-color: #26282B;
 	color: #D5DCE5;
+}
+
+.bio img {
+	float: left;
 }
 
 .contact-section {
